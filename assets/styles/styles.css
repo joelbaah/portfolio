@@ -14,9 +14,8 @@
   
   /* Container */
   .container {
-    max-width: 900px;
+    max-width: 1200px;
     margin: 0 auto;
-    padding: 0 20px;
   }
   
   /* Navigation */
@@ -41,7 +40,7 @@
   
   /* Headings */
   h1 {
-    font-size: 50px;
+    font-size: 100px;
   }
   
   h1, h2 {
@@ -49,13 +48,34 @@
   }
   
   section {
-    padding: 60px 0;
+    padding: 100px 0;
   }
-
+  /* Welcome Section */
   #welcome {
     text-align: center;
   }
+
+  .name {
+    color: #00bcd4;
+  }
   
+   /* About Section */
+    .tech-stack {
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0;
+        margin-top: 30px;
+        gap: 20px;
+    }
+
+    .tech-stack-item img {
+        width: 80px;
+        height: 80px;
+        object-fit: contain;
+    }
+
+
   /* Footer */
   footer {
     text-align: center;
