@@ -1,21 +1,66 @@
+/* Reset and Base Styles */
 * {
-    background-color: #08233b;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #08233b;
+    color: white;
     font-family: "Barlow", sans-serif;
-}
-nav ul {
-    text-align: center;
+    line-height: 1.6;
+  }
+  
+  /* Container */
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Navigation */
+  nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
     padding: 30px;
-}
-
-nav li {
-    display: inline;
-}
-
-nav a {
+    gap: 40px;
+  }
+  
+  nav a {
     text-decoration: none;
     color: white;
-    font-size: 25px;
-    padding: 0 50px;
-}
+    font-size: 20px;
+    transition: color 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #00bcd4;
+  }
+  
+  /* Headings */
+  h1 {
+    font-size: 50px;
+  }
+  
+  h1, h2 {
+    margin-bottom: 15px;
+  }
+  
+  section {
+    padding: 60px 0;
+  }
+
+  #welcome {
+    text-align: center;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 40px 0;
+    font-size: 14px;
+    opacity: 0.6;
+  }
+  
